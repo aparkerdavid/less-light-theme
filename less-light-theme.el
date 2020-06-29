@@ -231,6 +231,7 @@
         `(web-mode-function-name-face ((,class (:inherit ,font-lock-function-name-face))))
         `(web-mode-string-face ((,class (:foreground ,str))))
         `(web-mode-type-face ((,class (:inherit ,font-lock-type-face))))
+	`(web-mode-html-tag-face ((,class (:inherit ,font-lock-variable-name-face))))
         `(web-mode-html-attr-name-face ((,class (:foreground ,func))))
         `(web-mode-html-attr-value-face ((,class (:foreground ,keyword))))
         `(web-mode-warning-face ((,class (:inherit ,font-lock-warning-face))))
